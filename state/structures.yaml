@@ -1,0 +1,30 @@
+schema_version: 1
+
+structures:
+  - id: je-desto
+    pattern: "je ..., desto ..."
+    status: practicing
+    rule: >
+      Im je-Satz steht das finite Verb am Ende.
+      Der desto-Satz beginnt typischerweise mit dem Vergleichselement.
+    examples:
+      - "Je mehr ich spreche, desto leichter fällt mir Deutsch."
+      - "Je häufiger ich übe, desto natürlicher fühlt es sich an."
+    attempts: 2
+    successful_uses: 1
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: reflexive-sich-anfuehlen
+    pattern: "sich anfühlen"
+    status: practicing
+    rule: >
+      "sich anfühlen" ist reflexiv. Für die betroffene Person wird oft
+      "für + Akkusativ" verwendet.
+    examples:
+      - "Das fühlt sich gut an."
+      - "Das fühlt sich für mich natürlicher an."
+    attempts: 2
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02

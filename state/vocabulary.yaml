@@ -1,0 +1,47 @@
+schema_version: 1
+
+vocabulary:
+  - id: erfolgserlebnis
+    term: "das Erfolgserlebnis"
+    status: learning
+    meaning_de: >
+      Ein positives Gefühl, weil man etwas Schwieriges erfolgreich
+      geschafft oder gelöst hat.
+    example: "Nach drei Stunden Debugging war der Fix ein echtes Erfolgserlebnis."
+    encounters: 2
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: sich-mit-etwas-herumschlagen
+    term: "sich mit etwas herumschlagen"
+    status: learning
+    meaning_de: >
+      Längere Zeit mit einem schwierigen oder nervigen Problem zu tun haben.
+    example: "Ich habe mich gestern lange mit diesem Bug herumgeschlagen."
+    encounters: 1
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: bewältigen
+    term: "etwas bewältigen"
+    status: new
+    meaning_de: >
+      Eine schwierige Aufgabe, Situation oder Herausforderung erfolgreich schaffen.
+    example: "Wir mussten mehrere technische Probleme bewältigen."
+    encounters: 1
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: feedbackschleife
+    term: "die Feedbackschleife"
+    status: active
+    meaning_de: >
+      Ein wiederholter Prozess aus Handlung, Feedback, Anpassung und neuer Handlung.
+    example: "Wir bauen eine Feedbackschleife für mein Deutschlernen."
+    encounters: 2
+    successful_uses: 1
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02

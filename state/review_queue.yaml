@@ -1,0 +1,28 @@
+schema_version: 1
+updated: 2026-10-02
+
+due:
+  - type: error
+    id: sich-anfuehlen
+    priority: high
+    reason: repeated_error
+
+  - type: structure
+    id: je-desto
+    priority: high
+    reason: active_practice
+
+  - type: vocabulary
+    id: erfolgserlebnis
+    priority: medium
+    reason: newly_introduced
+
+  - type: vocabulary
+    id: sich-mit-etwas-herumschlagen
+    priority: medium
+    reason: newly_introduced
+
+  - type: error
+    id: aufgabe-schlagen
+    priority: medium
+    reason: useful_lexical_correction

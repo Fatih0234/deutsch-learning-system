@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "German Learning Vocabulary State",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "vocabulary"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "term",
+          "status",
+          "encounters",
+          "successful_uses"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "term": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "new",
+              "learning",
+              "active",
+              "stable",
+              "mastered"
+            ]
+          },
+          "meaning_de": {
+            "type": "string"
+          },
+          "example": {
+            "type": "string"
+          },
+          "encounters": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "successful_uses": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "first_seen": {
+            "type": "string"
+          },
+          "last_seen": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

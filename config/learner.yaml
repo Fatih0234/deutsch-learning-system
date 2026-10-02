@@ -1,0 +1,44 @@
+schema_version: 1
+
+target_language: de
+interface_language: de
+
+profile:
+  profession: software_developer
+  default_work_language: mixed
+  uses_speech_to_text: true
+
+goals:
+  primary:
+    - spontaneous_speaking
+    - listening_comprehension
+    - reading_comprehension
+    - natural_writing
+  secondary:
+    - active_vocabulary
+    - natural_software_engineering_german
+
+domains:
+  - software_engineering
+  - artificial_intelligence
+  - technology
+  - productivity
+  - everyday_life
+
+preferences:
+  corrections_per_session: 5
+  prefer_natural_german: true
+  distinguish_transcription_errors: true
+  explanations_in_german: true
+  avoid_exhaustive_correction: true
+
+learning_style:
+  prefer_real_content: true
+  prefer_active_production: true
+  connect_reading_listening_speaking_writing: true
+  summarize_before_explanation: true
+
+session_defaults:
+  new_vocabulary_limit: 5
+  new_structures_limit: 2
+  active_targets_limit: 5

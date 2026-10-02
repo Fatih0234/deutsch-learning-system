@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "German Learning Errors State",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "errors"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "category",
+          "status",
+          "occurrences",
+          "first_seen",
+          "last_seen"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "candidate",
+              "active",
+              "improving",
+              "mastered"
+            ]
+          },
+          "incorrect_patterns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "target_patterns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "occurrences": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "successful_uses": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "first_seen": {
+            "type": "string"
+          },
+          "last_seen": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

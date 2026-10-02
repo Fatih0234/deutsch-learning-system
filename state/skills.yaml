@@ -1,0 +1,42 @@
+schema_version: 1
+updated: 2026-10-02
+
+speaking:
+  strengths:
+    - communicates complex ideas despite missing vocabulary
+    - willing to speak freely and make mistakes
+    - can sustain longer spontaneous monologues
+  current_bottlenecks:
+    - word order
+    - searching for natural expressions
+    - English calques
+    - some uncertainty with reflexive verbs
+  current_focus:
+    - fluency
+    - sentence structure
+    - active vocabulary
+
+reading:
+  strengths: []
+  current_bottlenecks: []
+  current_focus:
+    - establish baseline comprehension
+    - summarize before explanation
+
+listening:
+  strengths: []
+  current_bottlenecks: []
+  current_focus:
+    - establish baseline comprehension
+    - listen before using transcript
+
+writing:
+  strengths:
+    - ideas are usually understandable
+  current_bottlenecks:
+    - natural phrasing
+    - spelling
+    - sentence structure
+  current_focus:
+    - short structured texts
+    - active reuse of learned vocabulary

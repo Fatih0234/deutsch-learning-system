@@ -1,0 +1,105 @@
+schema_version: 1
+
+errors:
+  - id: sich-anfuehlen
+    category: grammar
+    status: active
+    incorrect_patterns:
+      - "Deutsch fühlt mich mehr natürlich."
+      - "Es fühlt mich nicht so gut an."
+    target_patterns:
+      - "Deutsch fühlt sich für mich natürlicher an."
+      - "Es fühlt sich für mich nicht so gut an."
+    explanation: >
+      "sich anfühlen" ist reflexiv. Die Person wird normalerweise
+      mit "für + Akkusativ" ausgedrückt.
+    occurrences: 2
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: je-desto-word-order
+    category: grammar
+    status: active
+    incorrect_patterns:
+      - "desto ich spreche, mehr lerne ich Deutsch"
+      - "je mehr benutze ich diese Coding-Agenten ..."
+    target_patterns:
+      - "Je mehr ich spreche, desto mehr Deutsch lerne ich."
+      - "Je mehr ich diese Coding-Agenten benutze, desto ..."
+    explanation: >
+      Der je-Teil funktioniert wie ein Nebensatz. Das finite Verb
+      steht normalerweise am Ende.
+    occurrences: 2
+    successful_uses: 1
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: ort-herstellen
+    category: vocabulary
+    status: candidate
+    incorrect_patterns:
+      - "einen Ort herstellen"
+    target_patterns:
+      - "einen Ort dafür schaffen"
+      - "einen Ort dafür einrichten"
+      - "einen Speicherort dafür haben"
+    occurrences: 1
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: zeit-im-lernen-verbringen
+    category: preposition
+    status: candidate
+    incorrect_patterns:
+      - "Zeit im Lernen verbringen"
+    target_patterns:
+      - "Zeit mit Lernen verbringen"
+      - "Zeit damit verbringen, Deutsch zu lernen"
+    occurrences: 1
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: gutes-ding
+    category: naturalness
+    status: candidate
+    incorrect_patterns:
+      - "ein gutes Ding"
+    target_patterns:
+      - "eine gute Sache"
+    explanation: >
+      "Ding" ist grammatisch möglich, wirkt hier aber wie eine direkte
+      Übertragung von englisch "good thing".
+    occurrences: 1
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: aufgabe-schlagen
+    category: vocabulary
+    status: candidate
+    incorrect_patterns:
+      - "eine Aufgabe schlagen"
+      - "nachdem man die Aufgabe geschlagen hat"
+    target_patterns:
+      - "eine Aufgabe schaffen"
+      - "eine Aufgabe bewältigen"
+      - "ein Problem lösen"
+    occurrences: 1
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02
+
+  - id: gerade-ich-spreche
+    category: word_order
+    status: candidate
+    incorrect_patterns:
+      - "Gerade ich spreche ..."
+    target_patterns:
+      - "Gerade spreche ich ..."
+    occurrences: 1
+    successful_uses: 0
+    first_seen: 2026-10-02
+    last_seen: 2026-10-02

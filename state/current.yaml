@@ -1,0 +1,29 @@
+schema_version: 1
+updated: 2026-10-02
+
+current_focus:
+  errors:
+    - sich-anfuehlen
+    - je-desto-word-order
+
+  vocabulary:
+    - erfolgserlebnis
+    - sich-mit-etwas-herumschlagen
+
+  structures:
+    - je-desto
+
+next_session:
+  recommended_mode: speaking
+
+  targets:
+    - use "je ... desto ..." with correct word order
+    - use "sich anfühlen" correctly
+    - use "Erfolgserlebnis" naturally
+    - use "sich mit etwas herumschlagen" naturally
+
+notes:
+  - Avoid exhaustive corrections.
+  - Continue using software engineering topics.
+  - Distinguish likely speech-to-text errors from language errors.
+  - Reading/listening should feed later speaking/writing tasks.
