@@ -1,5 +1,5 @@
 schema_version: 1
-updated: 2026-10-02
+updated: 2026-10-03
 
 current_focus:
   errors:
@@ -12,11 +12,13 @@ current_focus:
 
   structures:
     - je-desto
+    - egal-ob
 
 next_session:
   recommended_mode: speaking
 
   targets:
+    - use "egal, ob ... oder ..." with verb-final word order
     - use "je ... desto ..." with correct word order
     - use "sich anfühlen" correctly
     - use "Erfolgserlebnis" naturally
