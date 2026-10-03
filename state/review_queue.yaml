@@ -1,5 +1,5 @@
 schema_version: 1
-updated: 2026-10-02
+updated: 2026-10-03
 
 due:
   - type: error
@@ -11,6 +11,11 @@ due:
     id: je-desto
     priority: high
     reason: active_practice
+
+  - type: structure
+    id: egal-ob
+    priority: medium
+    reason: newly_introduced
 
   - type: vocabulary
     id: erfolgserlebnis
