@@ -28,3 +28,17 @@ structures:
     successful_uses: 0
     first_seen: 2026-10-02
     last_seen: 2026-10-02
+
+  - id: egal-ob
+    pattern: "Egal, ob ... oder ...: ..."
+    status: practicing
+    rule: >
+      "ob" leitet einen Nebensatz ein; das finite Verb steht am Ende.
+      Mit "egal, ob A oder B" sagt man, dass das Ergebnis in beiden Fällen gilt.
+    examples:
+      - "Egal, ob ich zu Hause arbeite oder ins Büro fahre: Ich beginne um neun."
+      - "Egal, ob du Anfänger bist oder schon Erfahrung hast: Übung hilft."
+    attempts: 0
+    successful_uses: 0
+    first_seen: 2026-10-03
+    last_seen: 2026-10-03
